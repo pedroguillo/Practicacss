@@ -1,0 +1,60 @@
+#central{
+	display: block;
+	margin:auto;
+	border:1px solid #ff8000;
+	width: 575px;
+	background-color:#FFE8C8;
+	height: 670px;
+	font-size: 20px;
+	text-indent: px;
+}
+#titulo{
+	text-align: center;
+}
+body{
+	background-image: url("background01.jpeg");
+	background-repeat: repeat-x;
+	font-family: helvetica;
+}
+#cuadrado{
+	height: 70px;
+	width: 75px;
+	text-align: center;
+	background-color: orange;
+	color: white;
+	display: block;
+	margin:auto;
+	font-size: 55px;
+ 
+}
+#derecha{
+height: 150px;
+width: 225px;
+float:right;	
+}
+#incibe{
+	float: left;
+	height: 100px;
+	width: 200px;
+}
+#diecisiete{
+	float: left;
+	height: 100px;
+	width: 100px;
+
+}
+footer{
+background-color: #EDEDED;
+font-size: 22pt;
+height: 5em;
+position: all;
+text-align: center;
+margin-top: 300px;
+}
+#guia{
+	float: left;
+	color: orange;
+}
+#arriba{
+	float: right;
+}

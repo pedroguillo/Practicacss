@@ -1,0 +1,95 @@
+#titulo {
+	color: orange;
+}
+
+ol{
+	counter-reset: ko;
+
+}
+
+#puntos{
+	display: block;
+
+}
+#puntos:before{
+	content: counters(ko,".")" ";
+	counter-increment: ko;
+}
+
+#color{
+	display: block;
+
+}
+#color:before{
+	content: counters(ko,".")" ";
+	counter-increment: ko;
+	background: orange;
+	color: white;
+}
+
+#sangria{
+	text-indent: 3em ;
+	text-align: left;
+
+}
+#arriba{
+	float: right;
+}
+body{
+	background-image: url("background01.jpeg");
+	background-repeat: repeat-x;
+	font-size: 16pt;
+
+}
+#span{
+	float: right;
+}
+#cuadrado1{
+	  padding: 3px;
+   background-color: #ff8000; 
+}
+#columna{
+	column-count: 2;
+	column-rule: 4px solid grey;
+
+}
+footer{
+background-color: #EDEDED;
+font-size: 22pt;
+height: 5em;
+position: all;
+text-align: center;
+}
+#incibe{
+	float: left;
+	height: 100px;
+	width: 200px;
+}
+
+#letras{
+	text-align: center;
+}
+#diecisiete{
+	float: left;
+	height: 100px;
+	width: 100px;
+
+}
+#páginas{
+	font-size: 15px;
+	float: right;
+	margin-right: 7em;
+
+}
+
+#derecha{
+height: 150px;
+width: 225px;
+float:right;	
+}
+#footer3{
+	height: 100px;
+	
+	float: right;
+
+}

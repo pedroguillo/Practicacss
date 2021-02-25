@@ -1,0 +1,31 @@
+h1 {
+	color:orange;
+	text-align: center;
+	font-size: 24pt;
+
+}
+span{
+	color:orange;
+	font-size: 48pt;
+	text-align: center;
+}
+body{
+	background-image: url("background01.jpeg");
+	background-repeat: repeat-x;
+}
+#imagen{
+	
+	display: block;
+	margin:auto;
+
+}
+h2{
+	text-align: center;
+	font-size: 24pt;
+	color: #6BB16B;
+}
+#footer{
+	display:block;
+	margin:auto;
+
+}

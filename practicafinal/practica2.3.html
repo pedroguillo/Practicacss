@@ -1,0 +1,62 @@
+<!DOCTYPE html><meta charset="utf-8">
+<html>
+<head>
+	<title>Practica 2.3</title>
+</head>
+
+<body>
+<h1>LMSGI - PRÁCTICA 2.3 - FORMULARIO</h1>
+
+<h2>HTML: Texto-Enlaces-Listas-Imágenes y objetos</h2>
+<br>
+<h3>Mapa WEB</h3><br>
+			<a href="practica2.1.html">Home</a>|<a href="practica2.2.html">Listado</a>|<a href="practica2.3.html">Formulario</a>|<a href="practica2.4.html">How to</a><img src="google2.jpg">
+<br>
+<form action="gestion.php" method="POST">
+<fieldset>
+	<legend>Datos personales</legend>
+		Nombre <input type="text" name="Nombre"/>
+		<br>
+		<br>
+		Apellidos <input type="text" name="Apellidos">
+		<br>
+<br>
+		Teléfono <input type="text" name="telefono">
+</fieldset>
+
+<fieldset>Otros datos <br>
+<br>
+	<input type="radio" name="Sexo" value="Hombre" checked="checked">Hombre
+	<input type="radio" name="Sexo" value="Mujer">Mujer
+<br>
+<br>
+	<input type="checkbox" name="Aficionmusica" value="Música">Música
+	<input type="checkbox" name="Aficionjuego" value="Juegos">Juegos
+<br>
+<br>
+	<select id="SO" name="SO">
+		<option value="selected">--selecciona--</option>
+		<option value="Windows">Windows</option>
+		<option value="Mac">Mac</option>
+		<option value="Linux">Linux</option>
+		<option value="Otro"></option>
+	</select>
+<br>
+<br>
+	Subir archivo:<input type="file" name="imagen" accept="image/*"><input type="file" name="pdf" accept=".pdf"multiple>
+<br>
+<br>
+<form action="gestion.php" method="post">
+<textarea id="descripcion"name="descripcion"cols="40"rows="5" placeholder="Observaciones"></textarea>
+<br>
+<br>
+	
+<input type="submit" name="enviar"><input type="reset" name="Limpiar">
+</form>
+</fieldset>
+
+</body>
+
+<footer>Este documento contiene derechos de Copyright © en pertenencia de Pedro Guilló Segura(practica2.3)</footer>
+</form>
+</html>
